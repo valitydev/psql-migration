@@ -1,6 +1,6 @@
 .PHONY: compile
 
-REBAR=./rebar3
+REBAR ?= rebar3
 
 compile:
 	$(REBAR) compile
